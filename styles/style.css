@@ -21,12 +21,9 @@ body {
   flex: 50%;
 }
 
-.card__image {
-  background-image: url("../images/image-product-desktop.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.card img {
   height: 100%;
+  width: 100%;
 }
 
 .column .card__content {
@@ -95,21 +92,9 @@ body {
   padding: 7px 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .card {
     flex-direction: column;
     margin: 0 10px;
   }
-
-  .card__image {
-    height: 350px;
-    overflow: hidden;
-    background-image: url("../images/image-product-mobile.jpg");
-  }
-  /* .card__image img {
-    width: 100;
-    height: auto;
-    max-height: none;
-    min-width: none;
-  } */
 }
