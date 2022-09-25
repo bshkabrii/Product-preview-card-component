@@ -27,26 +27,36 @@ body {
 }
 
 .column .card__content {
-  padding: 30px;
+  padding: 32px;
 }
 
 .card__category {
   font-family: "Montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
-  padding: 7px 0;
+  letter-spacing: 0.3rem;
+  margin: 3px 0 0;
 }
 
 .card__title {
-  padding: 20px 0;
+  margin: 22px 0 0;
   font-size: 30px;
   font-family: "Fraunces", serif;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+
+.card__description {
+  margin-top: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  line-height: 23px;
 }
 
 .card__price {
-  margin: 30px 0;
+  margin-top: 30px;
   display: flex;
   align-items: center;
 }
@@ -56,24 +66,28 @@ body {
   font-size: 30px;
   font-family: "Fraunces", serif;
   color: hsl(158, 36%, 37%);
+  letter-spacing: 1px;
 }
 
-.card__price_regular {
+.card__price s {
   text-decoration: line-through;
   vertical-align: top;
   color: hsl(228, 12%, 48%);
-  padding-left: 10px;
+  padding-left: 19px;
   font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .card__btn {
   background-color: hsl(158, 36%, 37%);
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   width: 100%;
-  padding: 10px;
+  padding: 15px;
+  margin-top: 28px;
 }
 
 .card__btn:hover {
@@ -82,14 +96,6 @@ body {
 
 .card__btn embed {
   padding-right: 10px;
-}
-
-.card__description {
-  font-family: "Montserrat", sans-serif;
-  color: hsl(228, 12%, 48%);
-  font-size: 14px;
-  line-height: 20px;
-  padding: 7px 0;
 }
 
 @media screen and (max-width: 650px) {
